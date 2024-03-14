@@ -1,2 +1,10 @@
-# python-
-Hello, I am Taha Tehrani from Iran, I work in the field of programming, this is a collection of my work in Python.
+# aval number-
+def primenumber (n):
+    for i in range(2 , n):
+        if n % i == 0:
+            return "not aval"
+    else:
+        return  "aval"    
+a = int (input("enter namber: "))
+n = a
+print(primenumber(a))
